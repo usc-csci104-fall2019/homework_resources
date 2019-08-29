@@ -1,0 +1,4 @@
+1 <=== output by line 5
+1 2 <=== output by line 7
+1 <=== output by line 9
+1 2 1 <=== output by line 10

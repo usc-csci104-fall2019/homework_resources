@@ -1,0 +1,10 @@
+START 5
+ADD
+ADD
+MOVE 0 1 0 3 (Move subjects 0, 1, 2, 3 from pool to exp1)
+QUERY 1 1
+MOVE 1 2 0 2 (Move subjects 0, 1, 2 from exp1 to exp2; exp1: 3, exp2: 0, 1, 2)
+QUERY 2 0 (Query subject 0)
+MOVE 2 1 2 2 (Move subject 2 from exp2 to exp1; exp1 : 3, 2, exp2 : 0, 1)
+QUERY 1 0 (Query subj 3)
+QUERY 1 1 (Query subj 2)
