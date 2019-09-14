@@ -1,0 +1,8 @@
+- input1: space between line number and command
+- input2: space beteen command and its parameters
+- input3: space between any two parameters of command
+- input4: no space between variable name and array brackets `[]`
+- input5: square brackets `[]` around the `<BEXP>` in `IF` and angled brackes `<>` around the destination line numbers in `IF`, `GOTO`, and `GOSUB`
+- input6: `<NEXP1> > <NEXP2>` should be replaced by the equivalent expression `<NEXP2> < <NEXP1>`
+- input7: space before and after binary operators (`+`, `-`, `*`, `/`, `=`, `<`, `>`)
+- input8: no space before or after opening or closing parentheses (except as required by the rule for commands)

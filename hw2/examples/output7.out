@@ -1,0 +1,7 @@
+1 PRINT (1 + 2)
+2 PRINT (1 - X)
+3 PRINT (27 * Y)
+4 PRINT (X / 2)
+5 IF [X = Y] THEN <1>
+6 IF [X < Y] THEN <2>
+7 IF [Y < X] THEN <3>
