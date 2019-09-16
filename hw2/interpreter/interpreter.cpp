@@ -1,6 +1,6 @@
 #include "interpreter.h"
 
-Interpreter::Interpreter(istream& in) {
+Interpreter::Interpreter(std::istream& in) {
     this->parse(in);
 }
 
@@ -8,7 +8,7 @@ Interpreter::~Interpreter() {
 
 }
 
-void Interpreter::parse(istream& in) {
+void Interpreter::parse(std::istream& in) {
     string line;
     while (getline(in, line)) {
         size_t line_number;
