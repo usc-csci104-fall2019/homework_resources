@@ -36,7 +36,7 @@ Begin implementations for the SplayTree class.
 */
 
 template<typename Key, typename Value>
-SplayTree::SplayTree() : badInserts(0) { }
+SplayTree<Key, Value>::SplayTree() : badInserts(0) { }
 
 template<typename Key, typename Value>
 int SplayTree<Key, Value>::report() const {
